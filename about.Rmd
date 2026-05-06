@@ -1,0 +1,22 @@
+---
+title: "关于本网站"
+output:
+  html_document:
+    theme: cosmo
+    toc: false
+---
+
+
+这是一个使用 **R Markdown** 构建的网站，适合在 RStudio 中运行，并可部署到 GitHub Pages。
+
+## 页面结构
+- 首页
+- 研究内容
+- 主要研究成果
+- 关于本网站
+
+## 运行步骤
+1. 在 RStudio 中打开项目文件夹
+2. 确保已安装所需 R 包：
+```r
+install.packages("rmarkdown")
