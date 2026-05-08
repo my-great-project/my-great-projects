@@ -142,3 +142,93 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
    </p>
 </div>
 “科研成果”
+---
+title: "主要研究成果"
+description: "科研成果展示"
+output:
+  html_document:
+    theme: cosmo
+    toc: false
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+<style>
+.box {
+border: 1px solid #e0e0e0;
+border-radius: 8px;
+padding: 20px;
+margin: 20px 0;
+background-color: #ffffff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.box-title {
+color: #2c3e50;
+font-size: 1.3em;
+font-weight: bold;
+margin-top: 0;
+margin-bottom: 15px;
+border-bottom: 1px solid #eee;
+padding-bottom: 8px;
+}
+.paper-item {
+margin-bottom: 12px;
+line-height: 1.6;
+}
+.project-item, .award-item {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+</style>
+<div class="box">
+<div class="box-title">代表性论文</div>
+<div class="paper-item">
+1. 吴孔杰, 胡承孝, 谭启玲, 孙学成, 赵小虎, 武松伟*. 柑橘果实糖积累特征及蔗糖转运机制研究进展. <em>园艺学报</em>, 2022, 49: 2543-2558.
+</div>
+<div class="paper-item">
+2. Songwei Wu, Xuecheng Sun, Qiling Tan, Chengxiao Hu*. Molybdenum improves water uptake via extensive root morphology, aquaporin expressions and increased ionic concentrations in wheat under drought stress. <em>Environmental and Experimental Botany</em>, 2019 (157): 241-249.
+</div>
+<div class="paper-item">
+3. Songwei Wu, Chengxiao Hu, Qiling Tan, Xiaohu Zhao, Shoujun Xu, Yitao Xia, Xuecheng Sun*. Nitric oxide acts downstream of abscisic acid in molybdenum-induced oxidative tolerance in wheat. <em>Plant Cell Reports</em>, 2018, 37: 599-610.
+</div>
+<div class="paper-item">
+4. Songwei Wu, Changming Zhang, Ming Li, Qiling Tan, Xuecheng Sun, Zhiyong Pan, Xiuxin Deng, Chengxiao Hu*. Effects of potassium on fruit soluble sugar and citrate accumulations in Cara Cara navel orange (<em>Citrus sinensis</em> L. Osbeck). <em>Scientia Horticulturae</em>, 2021 (283): 110057.
+</div>
+<div class="paper-item">
+5. Songwei Wu, Ming Li, Changming Zhang, Qiling Tan, Xiaozhen Yang, Xuecheng Sun, Zhiyong Pan, Xiuxin Deng, Chengxiao Hu*. Effects of phosphorus on fruit soluble sugar and citric acid accumulations in citrus. <em>Plant Physiology and Biochemistry</em>, 2021 (160): 73-81.
+</div>
+<div class="paper-item">
+6. Songwei Wu, Kongjie Wu, … Chengxiao Hu*. Recruitment of specific microbes through exudates affects cadmium activation and accumulation in <em>Brassica napus</em>. <em>Journal of Hazardous Materials</em>, 442 (2023): 130066.
+</div>
+</div>
+<div class="box">
+<div class="box-title">科研项目</div>
+<div class="project-item">
+- 国家现代柑橘产业技术体系，养分管理与化肥减施增效（CARS-26），2024.01-至今，主持，在研
+</div>
+<div class="project-item">
+- 国家重点研发计划子课题，柑橘水肥精准施用技术研发与应用研究（2024YFD2300801），2024.12-2027.12，主持，在研
+</div>
+<div class="project-item">
+- 国家自然科学基金青年基金，钾提高柑橘果实柠檬酸积累的生理和分子机制，2021.01-2023.12，主持，结题
+</div>
+<div class="project-item">
+- 国家重点研发计划子课题，钾营养调控柑橘果实糖积累的生理机制，2020.01-2022.12，主持，结题
+</div>
+</div>
+<div class="box">
+<div class="box-title">奖励与荣誉</div>
+<div class="award-item">
+- 2024年，湖北省科技进步二等奖（5/10）
+</div>
+<div class="award-item">
+- 2023年，中国植物营养与肥料学会科技进步奖二等奖（6/14）
+</div>
+<div class="award-item">
+- 2018年，中国中微肥创新联盟青年英才奖（1/1）
+</div>
+</div>
+“联系我们”
