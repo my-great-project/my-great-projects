@@ -1,12 +1,12 @@
 柑橘养分利用
 小组成员：
-@wangxuan24王硕2025
+@wangxuan24王硕2025303120132
 @Jiesun-star孙宜宜20253031200086
 @zhiyuanli-beep李致远2025303120109
 @BINGWANYANG杨冰婉20253031100099
 项目简介：用StudioR对“柑橘养分的高效利用和品质调控”课题组的“首页”、“研究方向”、“科研成果”、“联系我们”进行复现
+
 “首页”
----
 title: "主要成员"
 output:
   html_document:
@@ -71,8 +71,8 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 <p>段雨晴、李高源、郑亚军、牛彤彤、邹思令、吴骏峰、杨冰婉、李致远、孙宜宜、王硕</p>
 </div>
 </div>
+
 “研究方向”
----
 title: "研究方向"
 output:
   html_document:
@@ -141,6 +141,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
   结合田间试验和实验室研究，构建精准施肥、绿色栽培和品质协同提升技术体系。
    </p>
 </div>
+
 “科研成果”
 ---
 title: "主要研究成果"
@@ -231,6 +232,7 @@ line-height: 1.6;
 - 2018年，中国中微肥创新联盟青年英才奖（1/1）
 </div>
 </div>
+
 “联系我们”
 ---
 title: "联系我们"
