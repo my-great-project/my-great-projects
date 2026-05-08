@@ -232,3 +232,58 @@ line-height: 1.6;
 </div>
 </div>
 “联系我们”
+---
+title: "联系我们"
+output:
+  html_document:
+    theme: cosmo
+    toc: false
+    css: style.css
+---
+
+<style>
+.contact-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.contact-label {
+  font-weight: bold;
+  color: #2c3e50;
+  display: inline-block;
+  width: 100px;
+}
+</style>
+
+<div class="contact-section">
+<h2 class="contact-title">课题组联系方式</h2>
+<div class="contact-item">
+<span class="contact-label">邮箱：</span>
+<a href="mailto:wusw@mail.hzau.edu.cn">wusw@mail.hzau.edu.cn</a>
+</div>
+<div class="contact-item">
+<span class="contact-label">地址：</span>
+华中农业大学资源与环境学院
+</div>
+<div class="contact-item">
+<span class="contact-label">详细地址：</span>
+湖北省武汉市华中农业大学资源与环境学院果蔬园艺全国重点实验室526
+</div>
+</div>
