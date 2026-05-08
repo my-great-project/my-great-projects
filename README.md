@@ -6,3 +6,69 @@
 @BINGWANYANG杨冰婉20253031100099
 项目简介：用StudioR对“柑橘养分的高效利用和品质调控”课题组的“首页”、“研究方向”、“科研成果”、“联系我们”进行复现
 “首页”
+---
+title: "主要成员"
+output:
+  html_document:
+    theme: cosmo
+    toc: false
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+<style>
+.box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.box-title {
+  color: #2c3e50;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.member-group {
+  margin-bottom: 12px;
+}
+
+.member-title {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+</style>
+
+<div class="box">
+<div class="box-title">课题负责人</div>
+<p><strong>武松伟</strong> 副教授 / 博士生导师</p>
+<p>研究方向：柑橘养分高效利用和品质调控；柑橘养分精准管理与施肥技术</p>
+</div>
+<div class="box">
+<div class="box-title">团队成员</div>
+<div class="member-group">
+<div class="member-title">博士后</div>
+<p>郑小妹</p>
+</div>
+<div class="member-group">
+<div class="member-title">博士研究生</div>
+<p>吴孔杰、刘韵诗、胡银龙、尹熙心</p>
+</div>
+<div class="member-group">
+<div class="member-title">硕士研究生</div>
+<p>段雨晴、李高源、郑亚军、牛彤彤、邹思令、吴骏峰、杨冰婉、李致远、孙宜宜、王硕</p>
+</div>
+</div>
+“研究方向”
